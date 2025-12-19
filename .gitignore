@@ -58,11 +58,3 @@ mlruns/
 *.pth
 *.ckpt
 *.onnx
-
-# =========================
-# Datasets / downloaded data
-# =========================
-data/
-artificial-neural-networks/data/
-**/MNIST/
-**/MNIST/**
