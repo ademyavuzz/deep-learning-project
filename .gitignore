@@ -1,61 +1,36 @@
-# =========================
-# Python
-# =========================
-__pycache__/
-*.py[cod]
-*.pyd
-*.so
-*.egg-info/
-dist/
-build/
-pip-wheel-metadata/
-.pytest_cache/
-.coverage
-.coverage.*
-htmlcov/
-.mypy_cache/
-.ruff_cache/
-.cache/
-.ipynb_checkpoints/
+# --- datasets / large files ---
+convolutional-neural-network/data/cifar-10-python.tar.gz
+convolutional-neural-network/data/cifar-10-batches-py/
+convolutional-neural-network/data/*.tar
+convolutional-neural-network/data/*.tar.gz
+convolutional-neural-network/data/*.zip
+convolutional-neural-network/data/*.7z
 
-# Virtual environments
-.venv/
-venv/
-env/
-
-# =========================
-# PyCharm / JetBrains
-# =========================
-.idea/
-*.iml
-
-# =========================
-# macOS
-# =========================
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-._*
-.Spotlight-V100
-.Trashes
-
-# =========================
-# Logs / temp
-# =========================
-*.log
-*.tmp
-*.swp
-
-# =========================
-# Model artifacts / checkpoints (optional)
-# =========================
-checkpoints/
-runs/
-wandb/
-mlruns/
+# (opsiyonel) tüm projede büyük veri / model dosyaları
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.h5
+*.hdf5
 *.pt
 *.pth
 *.ckpt
 *.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
 
+# --- python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# --- notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- macOS ---
+.DS_Store
